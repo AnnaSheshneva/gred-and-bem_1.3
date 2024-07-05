@@ -1,0 +1,451 @@
+@font-face {
+    font-family: 'TT Lakes'; 
+	src: url(./TTLakes/TTLakes-Medium.woff)
+ }
+ @font-face {
+    font-family: 'TT Lakes-Light'; 
+	src: url(./TTLakes/TTLakes-Light.woff);
+ }
+
+
+
+ body {
+    margin: 0px;
+   
+ }
+
+.container {
+    font-family: 'TT Lakes';
+  
+}
+.head {
+    background-color: #FFFFFF;
+    width: 100%;
+}
+.head__cont {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 24px;
+}
+.head__cont_menu {
+    padding: 16px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+.head__cont_poloska {
+   
+}
+.head__cont_logo {
+     padding: 16px;
+}
+
+.head__cont_call {
+
+}
+.head__cont_chat {
+    
+}
+.head__cont_profile {
+    
+}
+.head__cont_poloska-2 {
+    height: 32px;
+    width: 2px;
+    background-color: #EAEAEA;
+    margin-left:  20px;
+    align-self: center;
+}
+.head__cont_repair {
+    padding: 20px;
+    
+}
+.head__cont_checkstatus {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.head__repair-1120 {
+    
+}
+.head__a-repair-1120 {
+    
+    
+}
+.head__img-repair-1120 {
+    
+}
+.head__a-checkstatus-1120 {
+   
+}
+.head__img-checkstatus-1120 {
+    
+}
+.main {
+    color: #F8F8F8;
+}
+
+.main__servis {
+    margin-top: 0px;
+    padding-left: 12px;
+    margin-bottom: 24px;
+    color: #1B1C21;
+}
+.main__servis-highlight {
+    background-image: url(./img/highlight.svg);
+    align-items: center;
+    background-repeat: no-repeat ;
+}
+.main__navigation {
+    
+}
+.main__list-nav {
+    display: flex;
+    padding-left: 0; 
+    list-style-type: none;
+margin-bottom: 24px;
+
+
+}
+.main__list-nav_nav-li {
+    font-size: 16px;
+    list-style-type: none;
+        padding-left: 16.5px;
+        padding-right: 16.5px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        white-space: nowrap;
+        text-decoration: none;
+        
+        
+}
+ .main__list-nav_nav-li:hover {
+        margin-left: 16px;
+        border: 2px solid #B8FFEC;
+        border-radius: 5px;
+}
+.main__list-nav_nav-a {
+    text-decoration: none;
+    color: #7E7E82;
+}
+
+.main__nav_otz {
+    
+}
+.a-nav_otz {
+    
+}
+.main__section-container {
+    font-family:  'TT Lakes';
+   
+
+}
+.main__section-text {
+    font-family: 'TT Lakes';
+    line-height: 20px;
+    font-size: 14px;
+    
+}
+.main__section-text_section-p {
+    line-height: 18px;
+    font-size: 14px;
+   
+    color: #1B1C21;
+}
+.main__section-text_section-p1 {
+    color: #1B1C21;
+}
+.main__section-text_section-p2 {
+    color: #1B1C21;
+}
+.read-more {
+    
+}
+.read-more__a-more {
+    display: flex;
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+.read-more__read-logo {
+    margin-left: 24.20px;
+}
+.read-more__a-text {
+    margin-left: 6.40px;
+    text-decoration: none;
+    line-height: 24px;
+    font-size: 16px;
+}
+.main__foto-picture {
+    
+}
+.main__a-picture{
+    width: 531.35px;
+    height: 307px;
+}
+.main__foto-320 {
+    background-image: url(./img/foto_320.png);
+    background-repeat: no-repeat;
+    width: 320px;
+}
+
+
+
+@media (min-width:320px) and (max-width:767px) {
+    .head__cont_poloska {
+        display:none;
+    }
+    .head__cont_call {
+        display: none;
+    }
+    .head__cont_chat {
+        display: none;
+    }
+    .head__cont_profile {
+        display: none;
+    }
+    .head__repair-1120 {
+        display: none;
+    }
+    .a-nav_otz {
+        display: none;
+    }
+    .head__a-repair-1120 {
+        display: none;
+    }
+    .head__img-repair-1120 {
+        display: none;
+    }
+    .head__a-checkstatus-1120 {
+        display: none;
+    }
+    .head__img-checkstatus-1120 {
+        display: none;
+    }
+    .main__navigation {
+    overflow:scroll;
+    }
+    .main__foto-picture{
+        display: none;
+    }
+    .main__section-text_section-p1 {
+        display: none;
+    }
+    .main__section-text_section-p2 {
+        display: none;
+    }
+}
+@media (min-width:767px) and (max-width:1119px) {
+    .head {
+        width: 100%;
+        
+    }
+    .head__cont {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 24px;
+    }
+    .head__cont_menu {
+        padding-left: 24px;
+        padding-bottom: 24px;
+        padding-top: 24px;
+        
+    }
+    .head__cont_poloska {
+        height: 32px;
+        width: 2px;
+        background-color: #EAEAEA;
+        margin-left:  20px;
+        align-self: center;
+    }
+    .head__cont_logo {
+        padding-left:  20px;
+    }
+    .head__cont_call {
+        padding-left:  250px;
+    }
+    .head__cont_chat {
+        padding-left:  16px;
+    }
+    .head__cont_profile {
+        padding-left:  16px;
+    }
+    .head__cont_poloska-2 {
+        height: 32px;
+        width: 2px;
+        background-color: #EAEAEA;
+        margin-left:  20px;
+        align-self: center;
+    }
+    .head__cont_repair {
+        padding-left:  20px;
+    }
+    .head__cont_checkstatus {
+        padding-left:  16px;
+        padding-bottom: 24px;
+        padding-top: 24px;
+    }
+    
+    .head__repair-1120 {
+        display: none;
+    }
+    .head__a-repair-1120 {
+        display: none;
+    }
+    .head__img-repair-1120 {
+        display: none;
+    }
+    .head__a-checkstatus-1120 {
+        display: none;
+    }
+    .head__img-checkstatus-1120 {
+        display: none;
+    }
+    .main__navigation {
+    overflow:scroll;
+    }
+    .main__nav_otz {
+        display: none;
+    }
+    .main__section-container {
+        display: flex;
+        margin-top: 0px;
+    }
+    .main__servis{
+        margin-top: 0px;
+        margin-bottom: 32px;
+        padding-left: 20px;
+    }
+    .main__section-text{
+        min-width: 312px;
+        min-height: 160px;
+        margin-left: 24px;
+    }
+    .main__section-text_section-p2 {
+        display: none;
+    }
+    .main__foto-picture {
+      
+        margin-left: 48px;
+        margin-right: 25px;
+    }
+    .main__a-picture{
+        width: 360px;
+        height: 208px;
+        transition-duration: 3s;
+    }
+    .main__foto-320{
+        display: none;
+    }
+}
+@media (min-width:1120px) {
+    .head__cont_menu {
+        display: none;
+    }
+    .head__cont_poloska{
+        display: none;
+    }
+    .head__cont_logo {
+        display: none;
+    }
+    .head__cont_call{
+        display: none;
+    }
+    .head__cont_chat{
+        display: none;
+    }
+    .head__cont_profile{
+        display: none;
+    }
+    .head__cont_poloska-2{
+        display: none;
+    }
+    .head__cont_repair {
+        display: none;
+    }
+    .head__cont_checkstatus{
+        display: none;
+    }
+    .head__repair-1120 {
+        padding-top: 50px;
+        position: relative;
+        text-align: center;
+        align-items: center;
+        float: right;
+        padding-right: 32px;
+    }
+    .main__servis {
+        display: inline-block;
+        margin-top: 42px;
+        padding-left: 30px;
+    }
+    
+    .main__list-nav {
+justify-content: space-around;
+    }
+    .main__list-nav_nav-li{
+        padding-left: 1.6%;
+        padding-right: 1.6%;
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .main__list-nav_nav-li:first-child {
+         margin-left: 32px;
+    }
+    .main__nav_otz{
+        margin-left: 56px;
+        margin-bottom: 20px;
+    }
+    .a-nav_otz {
+        text-decoration: none;
+        color: #7E7E82;
+
+    }
+    .main__section-container {
+        display: flex;
+    }
+    .main__section-text{
+        min-width: 490px;
+        margin-left: 32px;
+        
+    }
+    .main__section-text_section-p1 {
+        display: none;
+    }
+    .main__foto-picture {
+        background-repeat: no-repeat;
+        margin-left: 36px;
+        margin-right: 29px;
+        
+    }
+    .main__a-picture {
+        transition-duration: 4s;
+
+    }
+    .main__foto-320{
+        display: none;
+    }
+    .head__a-repair-1120 {
+        display: inline-flex;
+        text-decoration: none;
+        color:  #1B1C21;
+        align-items: center;
+       
+    }
+    .head__img-repair-1120 {
+        margin-left: 8px;
+    
+    }
+    .head__a-checkstatus-1120 {
+        display: inline-flex;
+        align-items: center;
+        margin-left: 32px;
+        text-decoration: none;
+        color:  #1B1C21;
+        margin-left: 32px;
+    }
+    .head__img-checkstatus-1120 {
+        margin-left: 8px;
+    
+    }
+}

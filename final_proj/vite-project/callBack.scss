@@ -1,0 +1,120 @@
+
+$aquamarine: #7FDBFF; 
+$brown: #795548; 
+$pink: #FF3E79; 
+
+.callback {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    &__cont {
+        position: fixed;
+        top: 0;
+        right: 0;
+        max-width: 440px;
+        height: 100%;
+        z-index: 99;
+        border: 1px solid $aquamarine;
+        transform: translateX(200%);
+        background-color: #FFFFFF;
+
+        &.openn {
+            transform: translateX(0%);
+        }
+    }
+
+    &__close {
+        display: flex;
+        position: absolute;
+        right: 473px;
+        top: 32px;
+        width: 40px;
+        height: 40px;
+        background-image: url('./img/burger.svg');
+        cursor: pointer;
+        border: none;
+    }
+
+    @media (min-width: 320px) and (max-width: 767px) {
+        &__close {
+            display: none;
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 16px;
+    }
+
+    &__blockH1 {
+        display: flex;
+        margin-left: -32px;
+        width: 3px;
+        height: 40px;
+        background-image: url('./img/highlight.svg');
+        background-repeat: no-repeat;
+        margin-top: 32px;
+    }
+
+    &__heading {
+        position: absolute;
+        margin: 0px;
+        color: $brown;
+        padding-left: 32px;
+        text-align: center;
+    }
+
+    &__block {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    &__inp {
+        width: 100%;
+        margin-bottom: 16px;
+        border-radius: 5px;
+        border: 1px solid #EAEAEA;
+        box-sizing: border-box;
+    }
+
+    &__buttonSubmit {
+        margin-top: 23px;
+        margin-left: auto;
+        margin-right: 0;
+        width: 120px;
+        height: 32px;
+        background-image: url('./img/Group\ 10.svg');
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+    }
+
+    &__linkPers {
+        color: $pink;
+        text-decoration: none;
+    }
+
+    #name {
+        padding: 12px;
+    }
+
+    #phone {
+        padding: 12px;
+    }
+
+    #email {
+        padding: 12px;
+    }
+
+    #message {
+        padding: 12px 0px 84px 16px;
+    }
+
+    @media (min-width: 767px) and (max-width: 1440px) {
+        &__close320 {
+            display: none;
+        }
+    }
+}

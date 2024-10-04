@@ -5,46 +5,13 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
   </head>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-    <div class="container">
-      <div class="cont_menu">
-        <div class="header_icon">
-          <img class="burger hoverr" src="./img/burger.svg">
-          <img class="group " src="./img/Group (2).svg">
-          <img class="search hoverr" src="./img/search.svg">
-        </div>
-        <div class="menu_list">
-          <ul class="menu_list_ul">
-            <li class="menu_list_li img_menu">Ремонт техники</li>
-            <li class="menu_list_li img_menu">Услуги и сервисы</li>
-            <li class="menu_list_li img_menu">Корпоративным клиентам</li>
-            <li class="menu_list_li img_menu">Продавцам техники</li>
-            <li class="menu_list_li img_menu">Партнерам</li>
-            <li class="menu_list_li img_menu">Производителям</li>
-            <li class="menu_list_li img_menu">Наши сервисные центры</li>
-            <li class="menu_list_li r img_menu">Контакты</li>
-          </ul>
-        </div>
-        <div class="footer_menu">
-          <div class="footer_icon">
-            <img class="call_menu hoverr" src="./img/call.svg">
-            <img class="chat_menu hoverr" src="./img/chat.svg">
-            <img class="profile_menu hoverr" src="./img/profile.svg">
-          </div>
-          <div class="contacts">
-            <div class="mail">mail@cps.com</div>
-            <div class="phone">8 800 890 8900</div>
-            <div class="lang">
-              <lang class="ru lang_leng">RU</lang>
-              <lang class="en lang_leng">EN</lang>
-              <lang class="ch lang_leng">CH</lang>
-            </div>
-          </div>
-        </div>
-      </div>
+      
   <div class="wind">
       <header class="head">
         <div class="head__cont">
@@ -67,7 +34,7 @@
           <a href="" class="head__a-repair1120">Оставить заявку
                   <img class="head__img-repair1120 light" src="./img/repair.svg"></a>
           <a href="" class="head__a-checkstatus-1120">Статус ремонта
-                  <img class="head__img-checkstatus-1120 light" src="./img/checkstatus.svg">
+                  <img class="head__img-checkstatus1120 light" src="./img/checkstatus.svg">
                   </a>
         </div>
       </header>
@@ -303,78 +270,46 @@
   
     <div class="main_repear-brand_320 ">
       <h2 class="SectionRepear__h2">Ремонт техники различных брендов</h2>
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <li class="swiper-slide swiperSlide">
-            <img class="navBrands__brands" src="./img/Bitmap.svg" alt="lenovo">
-            <button class="navBrands__but">
-              <img class="navBrands__icon" src="./img/go.svg" alt="Перейти">
-            </button>
-          </li>
-        <li class="swiper-slide swiperSlide">
-          <img class="navBrands__brands" src="./img/Bitmap (2).svg" alt="samsung">
-          <button class="navBrands__but">
-          <img class="navBrands__icon" src="./img/go.svg" alt="Перейти">
+       <swiper-container
+    pagination-el=".swiper-pagination"
+    pagination-clickable="true"
+    pagination-type="bullets"
+    slides-per-view="1.5"
+    space-between="16"
+>
+    <swiper-slide>
+        <img class="swipSlide__brands" src="./img/Bitmap.svg" alt="lenovo">
+        <button class="swipSlide__but">
+            <img class="swipSlide__icon" src="./img/go.svg" alt="Перейти">
+        </button>
+    </swiper-slide>
+    <swiper-slide>
+        <img class="swipSlide__brands" src="./img/Bitmap (2).svg" alt="samsung">
+        <button class="swipSlide__but">
+            <img class="swipSlide__icon" src="./img/go.svg" alt="Перейти">
+        </button>
+    </swiper-slide>
+    <swiper-slide>
+        <img class="swipSlide__brands" src="./img/Bitmap.svg" alt="Apple">
+        <button class="swipSlide__but">
+            <img class="swipSlide__icon" src="./img/go.svg" alt="Перейти">
+        </button>
+    </swiper-slide>
+    <swiper-slide>
+        <img class="swipSlide__brands" src="./img/Bitmap.svg" alt="Viewsonic">
+        <button class="swipSlide__but">
+            <img class="swipSlide__icon" src="./img/go.svg" alt="Перейти">
+        </button>
+      </swiper-slide>
+      <swiper-slide>
+          <img class="swipSlide__brands" src="./img/Bitmap.svg" alt="Bosch">
+          <button class="swipSlide__but">
+              <img class="swipSlide__icon" src="./img/go.svg" alt="Перейти">
           </button>
-        </li>
-        <li class="swiper-slide swiperSlide">
-          <img class="navBrands__brands" src="./img/Bitmap (4).svg" alt="lenovo">
-          <button class="navBrands__but">
-          <img class="navBrands__icon" src="./img/go.svg" alt="Перейти">
-          </button>
-        </li>
-        <li class="swiper-slide swiperSlide">
-          <img class="navBrands__brands" src="./img/Bitmap (6).svg" alt="lenovo">
-          <button class="navBrands__but">
-          <img class="navBrands__icon" src="./img/go.svg" alt="Перейти">
-        </button>
-        </li>
-        <li class="swiper-slide swiperSlide">
-          <img class="navBrands__brands" src="./img/Bitmap (1).svg" alt="lenovo">
-          <button class="navBrands__but">
-          <img class="navBrands__icon" src="./img/go.svg" alt="Перейти">
-        </button>
-        </li>
-        <li class="swiper-slide swiperSlide">
-          <img class="navBrands__brands" src="./img/Bitmap (3).svg" alt="lenovo">
-          <button class="navBrands__but">
-          <img class="navBrands__icon" src="./img/go.svg" alt="Перейти">
-        </button>
-        </li>
-        <li class="swiper-slide swiperSlide">
-          <img class="navBrands__brands" src="./img/Bitmap (5).svg" alt="lenovo">
-          <button class="navBrands__but">
-          <img class="navBrands__icon" src="./img/go.svg" alt="Перейти">
-        </button>
-        </li>
-        <li class="swiper-slide swiperSlide">
-          <img class="navBrands__brands" src="./img/Bitmap (7).svg" alt="lenovo">
-          <button class="navBrands__but">
-          <img class="navBrands__icon" src="./img/go.svg" alt="Перейти">
-        </button>
-        </li>
-        <li class="swiper-slide swiperSlide">
-          <img class="navBrands__brands" src="./img/Bitmap.svg" alt="lenovo">
-          <button class="navBrands__but">
-          <img class="navBrands__icon" src="./img/go.svg" alt="Перейти">
-        </button>
-        </li>
-        <li class="swiper-slide swiperSlide">
-          <img class="navBrands__brands" src="./img/Bitmap (2).svg" alt="lenovo">
-          <button class="navBrands__but">
-          <img class="navBrands__icon" src="./img/go.svg" alt="Перейти">
-        </button>
-        </li>
-        <li class="swiper-slide swiperSlide">
-          <img class="navBrands__brands" src="./img/Bitmap (4).svg" alt="lenovo">
-          <button class="navBrands__but">
-          <img class="navBrands__icon" src="./img/go.svg" alt="Перейти">
-        </li>
-      </ul>
-  
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
+      </swiper-slide>
+  </swiper-container>
+  <div class="swiper-pagination"></div>
+
     </div>
     <section class="SectionRepearTex">
       <div class = "SectionRepear__block">
@@ -448,42 +383,55 @@
       </div>
     </section>
    
-    <div class="swiper-container">
-      <ul class="swiper-wrapper">
-        <li class="swiper-slide swiperSlide_tex">
-          <div class="navBrands__widh">
-            <h3>Ремонт ноутбуков </h3>
-          </div>
-           <button class="navTex__but">
-             <img class="navTex__icon" src="./img/go.svg" alt="Перейти">
-           </button>
-        </li>
-        <li class="swiper-slide swiperSlide_tex">
-          <div class="navBrands__widh">
-            <h3>Ремонт планшетов </h3>
-          </div>
-           <button class="navTex__but">
-             <img class="navTex__icon" src="./img/go.svg" alt="Перейти">
-           </button>
-        </li>
-        <li class="swiper-slide swiperSlide_tex">
-          <div class="navBrands__widh">
-            <h3>Ремонт ПК</h3>
-          </div>
-           <button class="navTex__but">
-             <img class="navTex__icon" src="./img/go.svg" alt="Перейти">
-           </button>
-        </li>
-        <li class="swiper-slide swiperSlide_tex">
-          <div class="navBrands__widh">
-            <h3>Ремонт мониторов </h3>
-          </div>
-           <button class="navTex__but">
-             <img class="navTex__icon" src="./img/go.svg" alt="Перейти">
-           </button>
-        </li>
-      </ul>
+    <swiper-container class="lil"
+    pagination-el=".swiper-pagin"
+    pagination-clickable="true"
+    pagination-type="bullets"
+    slides-per-view="1.5"
+    space-between="16">
+  <swiper-slide>
+    <li class="swiperSlide_tex">
+      <div class="navBrands__widh">
+        <h3>Ремонт ноутбуков </h3>
+      </div>
+       <button class="navTex__but">
+         <img class="navTex__icon" src="./img/go.svg" alt="Перейти">
+       </button>
+    </li>
+  </swiper-slide>
+  <swiper-slide>
+    <div class="swiperSlide_tex">
+      <div class="navBrands__widh">
+        <h3>Ремонт планшетов </h3>
+      </div>
+       <button class="navTex__but">
+         <img class="navTex__icon" src="./img/go.svg" alt="Перейти">
+       </button>
+      </div>
+  </swiper-slide>
+  <swiper-slide>
+    <li class="swiperSlide_tex">
+      <div class="navBrands__widh">
+        <h3>Ремонт ПК</h3>
+      </div>
+       <button class="navTex__but">
+         <img class="navTex__icon" src="./img/go.svg" alt="Перейти">
+       </button>
+    </li>
+  </swiper-slide>
+  <swiper-slide> 
+    <li class="swiperSlide_tex">
+    <div class="navBrands__widh">
+      <h3>Ремонт мониторов </h3>
     </div>
+     <button class="navTex__but">
+       <img class="navTex__icon" src="./img/go.svg" alt="Перейти">
+     </button>
+  </li>
+</swiper-slide>
+</swiper-container>
+<div class="swiper-pagin"></div>
+
     <section class="sectionPrise">
       <div class="sectionPrise_block">
         <h2 class="sectionPrise__h2">
@@ -536,26 +484,33 @@
     </section>
     <section class="main_repear-brand_320 ">
       <h2 class="SectionRepear__h2">Ремонт техники различных брендов</h2>
-      <div class="swiper-container swiperSlide__cont">
-        <ul class="swiper-wrapper wr">
-          <li class="swiper-slide swiperSlide_reper">
-            <div class="swiperSlide__Block">
-            <P class="swiperSlide__andBut_pGrey">Ремонтные услуги</P>
-            <p class="swiperSlide__andBut_pBlack">Тестирование с выдачей </br>технического заключения</p>
+      <swiper-container class="swiperSlide__cont"
+      pagination-el=".swiper-pag"
+      pagination-clickable="true"
+      pagination-type="bullets"
+      slides-per-view="1.5"
+      space-between="16">
+        <swiper-slide >
+          <li class=" swiperSlide_reper">
+          <div class="swiperSlide__Block">
+          <P class="swiperSlide__andBut_pGrey">Ремонтные услуги</P>
+          <p class="swiperSlide__andBut_pBlack">Тестирование с выдачей </br>технического заключения</p>
+           </div>
+           <div class="swiperSlide__Block">
+            <P class="swiperSlide__andBut_pGrey">Цена</P>
+            <p class="swiperSlide__andBut_pBlack">Бесплатно</p>
              </div>
-             <div class="swiperSlide__Block">
-              <P class="swiperSlide__andBut_pGrey">Цена</P>
-              <p class="swiperSlide__andBut_pBlack">Бесплатно</p>
-               </div>
-               <div class="swiperSlide__Block swiperSlide__andBut">
-                <div>
-                <p class="swiperSlide__andBut_pGrey">Срок 
-                <p class="swiperSlide__andBut_pBlack">30-120 мин</p></p>
-              </div>
-                <img class="swiperSlide__img" src="./img/Group 10.svg" alt="перейти">
-              </div>
-          </li>
-          <li class="swiper-slide swiperSlide_reper">
+             <div class="swiperSlide__Block swiperSlide__andBut">
+              <div>
+              <p class="swiperSlide__andBut_pGrey">Срок 
+              <p class="swiperSlide__andBut_pBlack">30-120 мин</p></p>
+            </div>
+              <img class="swiperSlide__img" src="./img/Group 10.svg" alt="перейти">
+            </div>
+        </li>
+          </swiper-slide>
+        <swiper-slide>
+          <li class=" swiperSlide_reper">
             <div class="swiperSlide__Block">
             <P class="swiperSlide__andBut_pGrey">Ремонтные услуги</P>
             <p class="swiperSlide__andBut_pBlack">Диагностика</p>
@@ -572,58 +527,62 @@
                 <img class="swiperSlide__img" src="./img/Group 10.svg" alt="перейти">
               </div>
           </li>
-          <li class="swiper-slide swiperSlide_reper">
-            <div class="swiperSlide__Block">
-            <P class="swiperSlide__andBut_pGrey">Ремонтные услуги</P>
-            <p class="swiperSlide__andBut_pBlack">Замена дисплея</p>
+        </swiper-slide>
+        <swiper-slide><li class="swiper-slide swiperSlide_reper">
+          <div class="swiperSlide__Block">
+          <P class="swiperSlide__andBut_pGrey">Ремонтные услуги</P>
+          <p class="swiperSlide__andBut_pBlack">Замена дисплея</p>
+           </div>
+           <div class="swiperSlide__Block ">
+            <P class="swiperSlide__andBut_pGrey">Цена</P>
+            <p class="swiperSlide__andBut_pBlack">1 000 ₽</p>
              </div>
-             <div class="swiperSlide__Block ">
-              <P class="swiperSlide__andBut_pGrey">Цена</P>
-              <p class="swiperSlide__andBut_pBlack">1 000 ₽</p>
-               </div>
-               <div class="swiperSlide__Block swiperSlide__andBut">
-                <div>
-                <p class="swiperSlide__andBut_pGrey">Срок 
-                <p class="swiperSlide__andBut_pBlack">30-120 мин</p></p>
-              </div>
-                <img class="swiperSlide__img" src="./img/Group 10.svg" alt="перейти">
-              </div>
-          </li>
+             <div class="swiperSlide__Block swiperSlide__andBut">
+              <div>
+              <p class="swiperSlide__andBut_pGrey">Срок 
+              <p class="swiperSlide__andBut_pBlack">30-120 мин</p></p>
+            </div>
+              <img class="swiperSlide__img" src="./img/Group 10.svg" alt="перейти">
+            </div>
+        </li></swiper-slide>
+        <swiper-slide>  
           <li class="swiper-slide swiperSlide_reper">
-            <div class="swiperSlide__Block">
-            <P class="swiperSlide__andBut_pGrey">Ремонтные услуги</P>
-            <p class="swiperSlide__andBut_pBlack">Тестирование с выдачей технического заключения</p>
+          <div class="swiperSlide__Block">
+          <P class="swiperSlide__andBut_pGrey">Ремонтные услуги</P>
+          <p class="swiperSlide__andBut_pBlack">Тестирование с выдачей технического заключения</p>
+           </div>
+           <div class="swiperSlide__Block">
+            <P class="swiperSlide__andBut_pGrey">Цена</P>
+            <p class="swiperSlide__andBut_pBlack">Бесплатно</p>
              </div>
-             <div class="swiperSlide__Block">
-              <P class="swiperSlide__andBut_pGrey">Цена</P>
-              <p class="swiperSlide__andBut_pBlack">Бесплатно</p>
-               </div>
-               <div class="swiperSlide__Block swiperSlide__andBut">
-                <div>
-                <p class="swiperSlide__andBut_pGrey">Срок 
-                <p class="swiperSlide__andBut_pBlack">30-120 мин</p></p>
-              </div>
-                <img class="swiperSlide__img" src="./img/Group 10.svg" alt="перейти">
-              </div>
-          </li>
-          <li class="swiper-slide swiperSlide_reper">
-            <div class="swiperSlide__Block">
-            <P class="swiperSlide__andBut_pGrey">Ремонтные услуги</P>
-            <p class="swiperSlide__andBut_pBlack">Тестирование с выдачей технического заключения</p>
+             <div class="swiperSlide__Block swiperSlide__andBut">
+              <div>
+              <p class="swiperSlide__andBut_pGrey">Срок 
+              <p class="swiperSlide__andBut_pBlack">30-120 мин</p></p>
+            </div>
+              <img class="swiperSlide__img" src="./img/Group 10.svg" alt="перейти">
+            </div>
+        </li></swiper-slide>
+        <swiper-slide><li class="swiper-slide swiperSlide_reper">
+          <div class="swiperSlide__Block">
+          <P class="swiperSlide__andBut_pGrey">Ремонтные услуги</P>
+          <p class="swiperSlide__andBut_pBlack">Тестирование с выдачей технического заключения</p>
+           </div>
+           <div class="swiperSlide__Block">
+            <P class="swiperSlide__andBut_pGrey">Цена</P>
+            <p class="swiperSlide__andBut_pBlack">Бесплатно</p>
              </div>
-             <div class="swiperSlide__Block">
-              <P class="swiperSlide__andBut_pGrey">Цена</P>
-              <p class="swiperSlide__andBut_pBlack">Бесплатно</p>
-               </div>
-               <div class="swiperSlide__Block swiperSlide__andBut">
-                <div>
-                <p class="swiperSlide__andBut_pGrey">Срок 
-                <p class="swiperSlide__andBut_pBlack">30-120 мин</p></p>
-              </div>
-                <img class="swiperSlide__img" src="./img/Group 10.svg" alt="перейти">
-              </div>
-          </li>
-        </ul>
+             <div class="swiperSlide__Block swiperSlide__andBut">
+              <div>
+              <p class="swiperSlide__andBut_pGrey">Срок 
+              <p class="swiperSlide__andBut_pBlack">30-120 мин</p></p>
+            </div>
+              <img class="swiperSlide__img" src="./img/Group 10.svg" alt="перейти">
+            </div>
+        </li>
+      </swiper-slide>
+      </swiper-container>
+      <div class="swiper-pag"></div>
       </section>
     
     <aside class="aside">
@@ -635,6 +594,7 @@
       </button>
   </div>
     </aside>
+  </main>
     <footer class="footer">
       <section class="footer__block">
       <div class="footer__sec">
@@ -657,14 +617,51 @@
     </div>
     
   </div>
-    <aside class="callback"></aside>
+  <aside class="container">
+    <div class="cont_menu">
+      <div class="header_icon">
+        <img class="burger hoverr" src="./img/burger.svg">
+        <img class="group " src="./img/Group (2).svg">
+        <img class="search hoverr" src="./img/search.svg">
+      </div>
+      <div class="menu_list">
+        <ul class="menu_list_ul">
+          <li class="menu_list_li img_menu">Ремонт техники</li>
+          <li class="menu_list_li img_menu">Услуги и сервисы</li>
+          <li class="menu_list_li img_menu">Корпоративным клиентам</li>
+          <li class="menu_list_li img_menu">Продавцам техники</li>
+          <li class="menu_list_li img_menu">Партнерам</li>
+          <li class="menu_list_li img_menu">Производителям</li>
+          <li class="menu_list_li img_menu">Наши сервисные центры</li>
+          <li class="menu_list_li r img_menu">Контакты</li>
+        </ul>
+      </div>
+      <div class="footer_menu">
+        <div class="footer_icon">
+          <img class="call_menu hoverr" src="./img/call.svg">
+          <img class="chat_menu hoverr" src="./img/chat.svg">
+          <img class="profile_menu hoverr" src="./img/profile.svg">
+        </div>
+        <div class="contacts">
+          <div class="mail">mail@cps.com</div>
+          <div class="phone">8 800 890 8900</div>
+          <div class="lang">
+            <lang class="ru lang_leng">RU</lang>
+            <lang class="en lang_leng">EN</lang>
+            <lang class="ch lang_leng">CH</lang>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+ 
+    <aside class="callback">
       <div class="callback__cont">
           <button class="callback__close">
           </button>
           <div class="callback__block">
               <button class="callback__close320"></button>
               <div class="callback__blockH1 ">
-                 
                   <h1 class="callback__heading">Обратная связь</h1>
                 </div>
           <form class="callback__form">
@@ -676,34 +673,66 @@
   
               <textarea id="message" class="callback__inp" name="message" placeholder="Сообщение"></textarea>
               <p class="callback__submit">
-                  Нажимая “отправить”, вы даете согласие на <a href="#" class="link_pers"> обработку персональных данных </a>  и соглашаетесь с нашей <a href="#" class="link_pers"> политикой конфиденциальности</a>
+                  Нажимая “отправить”, вы даете согласие на <a href="#" class="callback__linkPers"> обработку персональных данных </a>  и соглашаетесь с нашей <a href="#" class="callback__linkPers"> политикой конфиденциальности</a>
               </p>
-              <button type="submit" class="callback__buttont"></button>
+              <button type="submit" class="callback__button"></button>
           </form>
           </div>
   </div>
   </aside>
-  <aside class="call">
-    <div class="call__cont">
-        <button class="call__close">
+  <aside class="oderCall">
+    <div class="oderCall__cont">
+        <button class="oderCall__close">
         </button>
-        <div class="call__block">
-            <button class="call__close320"></button>
-            <div class="call__blockH1 ">
-                <h1 class="call__heading">Заказать звонок</h1>
+        <div class="oderCall__block">
+            <button class="oderCall__close320"></button>
+            <div class="oderCall__blockH1 ">
+                <h1 class="oderCall__heading">Заказать звонок</h1>
               </div>
-        <form class="call__form">
-            <input type="tel" id ="call__phone" class="call__inp" name="phone" placeholder="Телефон">
-            <p class="call__submit">
-                Нажимая “отправить”, вы даете согласие на <a href="#" class="link_pers"> обработку персональных данных </a>  и соглашаетесь с нашей <a href="#" class="link_pers"> политикой конфиденциальности</a>
+        <form class="oderCall__form">
+            <input type="tel" id ="oderCall__phone" class="oderCall__inp" name="phone" placeholder="Телефон">
+            <p class="oderCall__submit">
+                Нажимая “отправить”, вы даете согласие на <a href="#" class="oderCall__linkPers"> обработку персональных данных </a>  и соглашаетесь с нашей <a href="#" class="oderCall__linkPers"> политикой конфиденциальности</a>
             </p>
-            <button type="submit" class="call__button"></button>
+            <button type="submit" class="oderCall__button"></button>
         </form>
         </div>
+  </div>
+  </aside>
+  
 </div>
-</aside>
-  </main>
-</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+
+
     <script type="module" src="/main.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const swiperSlides = document.querySelectorAll('.swiperSlide_reper');
+      
+        function slideHeight() {
+          let maxHeight = 0;
+      
+          swiperSlides.forEach(slide => {
+            slide.style.height = 'auto';
+          });
+      
+          
+          swiperSlides.forEach(slide => {
+            if (slide.offsetHeight > maxHeight) {
+              maxHeight = slide.offsetHeight;
+            }
+          });
+      
+          swiperSlides.forEach(slide => {
+            slide.style.height = maxHeight + 'px';
+          });
+        }
+      
+        slideHeight();
+      
+        window.addEventListener('resize', slideHeight);
+      });
+    </script>
   </body>
 </html>

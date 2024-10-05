@@ -22,7 +22,7 @@ openButton.onclick = function() {
         slider.style.borderRadius = '5px';
         slider.style.marginRight = '32px';
         openButton.style.display = 'none';
-        clouse.style.display = 'block';
+        clouse.style.display = 'flex';
     });
 }
 openButton_767.onclick = function() {
@@ -35,7 +35,7 @@ openButton_767.onclick = function() {
         slider_767.style.borderRadius = '5px';
         slider_767.style.marginRight = '32px';
         openButton_767.style.display = 'none';
-        clouse_767.style.display = 'block';
+        clouse_767.style.display = 'flex';
     });
 }
 clouse.onclick = function() {
@@ -67,7 +67,7 @@ openBut.onclick = function() {
         slider.style.borderRadius = '5px';
        
         openBut.style.display = 'none';
-        sectionRepearTex__close.style.display = 'block';
+        sectionRepearTex__close.style.display = 'flex';
     });
 }
 sectionRepearTex__close.onclick = function() {

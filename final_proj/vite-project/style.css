@@ -195,6 +195,7 @@ border: none;
 .close_767{
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .icon_aButton:hover{
   transform: rotate(180deg);
@@ -348,6 +349,9 @@ border: none;
     background-color: #FFFFFF;
     margin-right: 32px;
     margin-bottom: 16px;
+}
+.a_Button{
+  cursor: pointer;
 }
 .navTex__hidden{
   display: none;
@@ -547,7 +551,9 @@ th {
   background-color: #F8F8F8;
   margin-top: 16px;
   cursor: pointer;
-  margin-bottom: 47pxh;
+  margin-bottom: 47px;
+ padding: 0;
+
 }
 
 .aside__img{
@@ -564,6 +570,8 @@ th {
 }
 .SectionRepearTex__close{
   display: none;
+    align-items: center; 
+    cursor: pointer;
 }
 @media (min-width:320px){
   .main__img{
@@ -630,6 +638,9 @@ th {
       display: flex;
       align-items: center;
       gap: 16px;
+  }
+  .nav__list{
+    flex-wrap: nowrap;
   }
   .main__section-container{
       display: block;
@@ -781,6 +792,9 @@ th {
   }
   .nav {
   overflow:scroll;
+  }
+  .nav__list{
+    flex-wrap: nowrap;
   }
   .main__nav_otz {
       display: none;
